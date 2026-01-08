@@ -1,5 +1,5 @@
 <template>
-  <footer class=" bg-[#8BB33E] text-[#1D2116] ">
+  <!-- <footer class=" bg-[#8BB33E] text-[#1D2116] ">
     <div class="px-[19px] lg:px-[100px] py-[100px]">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
         <div>
@@ -72,28 +72,28 @@
           </a>
         </div> 
          <div class="">
-          <!-- <div class="flex justify-center items-end mb-[16px]">
+          <div class="flex justify-center items-end mb-[16px]">
             <img src="/images/chigisoft.gif"
               class="w-[32px] h-[32px] transition-transform duration-300 hover:scale-110" alt="">
             <img src="/images/chigisoft.svg" class="w-[96px] h-[26px]" alt="">
-          </div> -->
+          </div>
           <p class="text-[#1D2116]/30">© 2025. All rights reserved</p>
         </div> 
       </div>
     </div>
-  </footer>
+  </footer> -->
 </template>
 
 <script setup>
-const openNewTab = () => {
-  const pageTitle = "Heritage";
-  const queryParams = new URLSearchParams({ pageName: pageTitle }).toString();
-  const newTab = window.open(
-    "https://chigisoft.com/edge?" + queryParams,
-    "_blank"
-  );
-  newTab?.focus();
-};
+// const openNewTab = () => {
+//   const pageTitle = "Heritage";
+//   const queryParams = new URLSearchParams({ pageName: pageTitle }).toString();
+//   const newTab = window.open(
+//     "https://chigisoft.com/edge?" + queryParams,
+//     "_blank"
+//   );
+//   newTab?.focus();
+// };
 </script>
 
 <style scoped></style>

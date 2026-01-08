@@ -17,6 +17,7 @@ interface _GlobalComponents {
       'Button': typeof import("../../components/Button.vue")['default']
     'Footer': typeof import("../../components/Footer.vue")['default']
     'Navbar': typeof import("../../components/Navbar.vue")['default']
+    'Sidebar': typeof import("../../components/Sidebar.vue")['default']
     'WhiteBtn': typeof import("../../components/White-Btn.vue")['default']
     'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -45,6 +46,7 @@ interface _GlobalComponents {
       'LazyButton': LazyComponent<typeof import("../../components/Button.vue")['default']>
     'LazyFooter': LazyComponent<typeof import("../../components/Footer.vue")['default']>
     'LazyNavbar': LazyComponent<typeof import("../../components/Navbar.vue")['default']>
+    'LazySidebar': LazyComponent<typeof import("../../components/Sidebar.vue")['default']>
     'LazyWhiteBtn': LazyComponent<typeof import("../../components/White-Btn.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
