@@ -1,51 +1,15 @@
-<!-- <template>
-    <div class="w-full h-screen bg-[#F9F9F9] flex items-center justify-center">
-        <div class="w-[455px] h-[511px] bg-white flex flex-col items-center gap-[40px] p-[24px] rounded-[8px]">
-            <div class="w-full flex justify-center items-center">
-                <img src="/images/logo1.svg" alt="" />
-            </div>
-
-            <div class="w-full flex justify-center items-center">
-                <h5 class="text-[#1A1A1A] text-[28px] cheltenham">Log in</h5>
-            </div>
-
-            <div class="w-full flex flex-col gap-[16px] px-[8px]">
-                <div class="w-full flex flex-col gap-[8px]">
-                    <label class="text-[16px] text-[#6E4429] optima-bold">
-                        Email Address
-                    </label>
-                    <input type="email" placeholder="Enter your email address"
-                        class="w-full h-[44px] border border-[#B1B1B1] rounded-[8px] px-[8px] placeholder:text-[#B9B9B9] placeholder:text-[16px] outline-none" />
-                </div>
-                <div class="w-full flex flex-col gap-[8px]">
-                    <label class="text-[16px] text-[#6E4429] optima-bold">
-                        Password
-                    </label>
-                    <input type="password" placeholder="Enter your password"
-                        class="w-full h-[44px] border border-[#B1B1B1] rounded-[8px] px-[8px] placeholder:text-[#B9B9B9] placeholder:text-[16px] outline-none" />
-                </div>
-            </div>
-            <div class="w-full">
-                <button class="w-full h-[52px] bg-[#8FB63E] rounded-[8px] text-white text-[16px] font-medium">
-                    Continue
-                </button>
-            </div>
-        </div>
-    </div>
-</template> -->
-
 <template>
   <div class="flex min-h-screen bg-[#F9F9F9]">
     <Sidebar :active="'Dayhomes'" />
     <div class="flex-1 flex flex-col pb-[175px]">
       <Navbar/>
       <div class="flex flex-col sm:flex-row sm:items-center justify-between pt-[40px]">
-        <div class="w-full flex flex-col gap-[8px] px-[24px]">
+        <div class="w-full flex flex-col gap-[8px] px-[24px] data-aos=" data-aos="fade-up" data-aos-duration="500">
           <h1 class="text-[30px] text-[#4a3c31]">Dayhomes</h1>
           <p class="text-[18px] text-[#6E4429]">Manage and monitor all registered dayhomes</p>
         </div>
 
-        <div class="flex flex-col sm:flex-row sm:items-center px-[24px]">
+        <div class="flex flex-col sm:flex-row sm:items-center px-[24px]" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
           <router-link to="/add-dayhome" class="bg-[#8BB33E] text-white text-[16px] w-[178px] h-[48px] rounded-[8px]
            flex items-center justify-center gap-[8px]">
             <img src="/images/cross.svg" class="w-[20px] h-[20px]" alt="">
@@ -57,7 +21,7 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[24px] px-[24px] mt-[40px]">
 
-        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]">
+        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
           <div class="flex items-center justify-between">
             <div class="flex flex-col justify-between">
               <p class="text-[28px] text-[#000000] cheltenham">10</p>
@@ -69,7 +33,7 @@
           </div>
         </div>
 
-        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]">
+        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
           <div class="flex items-center justify-between">
             <div class="flex flex-col justify-between">
               <p class="text-[28px] text-[#000000] cheltenham">6</p>
@@ -81,7 +45,7 @@
           </div>
         </div>
 
-        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]">
+        <div class="bg-[#FFFFFF] rounded-[4px] p-[16px] shadow-sm border border-[1px] border-[#E3E3E3]" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
           <div class="flex items-center justify-between">
             <div class="flex flex-col justify-between">
               <p class="text-[28px] text-[#000000] cheltenham">4</p>
@@ -96,7 +60,7 @@
 
       <div class="px-[24px] mt-[40px]">
         <div class="flex flex-col  sm:flex-row sm:items-center justify-between gap-[20px] ">
-          <div class="flex flex-col sm:flex-row items-stretch sm:items-center ">
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center" data-aos="fade-in" data-aos-duration="500">
             <div
               class="w-full sm:w-[419px] flex items-center gap-[8px] justify-center border border-[1px] border-[#B1B1B1] rounded-[8px] bg-[#FFFFFF] flex  pl-[8px] pr-[16px] py-[10px]">
               <img src="/images/search.png" class="w-[24px] h-[24px]" alt="">
@@ -107,7 +71,7 @@
           </div>
         </div>
 
-        <div class="flex gap-[px] mt-[40px] gap-[8px] flex-wrap">
+        <div class="flex gap-[px] mt-[40px] gap-[8px] flex-wrap" data-aos="fade-in" data-aos-duration="500" data-aos-delay="100">
           <button
             class="px-[12px] py-[5px] rounded-[8px] border border-[1px] border-[#D9D9D9DD] bg-[#3F5A2B] text-white text-[16px] optima-bold">All</button>
           <button
@@ -118,7 +82,7 @@
             class="px-[12px] py-[5px] rounded-[8px]   border border-[1px] border-[#D9D9D9DD] text-[16px] text-[#5C5C5C]">Inactive</button>
         </div>
 
-        <div class="bg-white rounded-[8px] overflow-hidden mt-[40px]">
+        <div class="bg-white rounded-[8px] overflow-hidden mt-[40px]" data-aos="fade-up" data-aos-duration="500">
           <div class="bg-[#F9F9F9] cheltenham rounded-[8px] border border-[1px] border-[#DBDBDB] px-[16px] py-[12px]">
             <div class="grid grid-cols-5 gap-[16px] lg:gap-[40px] text-[18px]  text-[#6E4429] uppercase">
               <div class="text-center">Dayhome Name</div>
@@ -128,7 +92,7 @@
               <div class="text-center">Actions</div>
             </div>
           </div>
-          <div v-for="item in dayhomes" :key="item.id" class="border-b border-gray-100 ">
+          <div v-for="item in dayhomes" :key="item.id" class="border-b border-gray-100 " data-aos="fade-up" data-aos-duration="500" :data-aos-delay="index * 50">
             <div class="grid grid-cols-5 justify-between items-center px-[px] py-[20px]">
               <div class="">
                 <div class="flex  gap-[4px] ">
@@ -161,7 +125,6 @@
                     ? 'bg-[#D2F196] text-[#262626]'
                     : 'bg-[#D31900] text-[#FFFFFF]'
                 ]">
-                  <!-- status dot -->
                   <span :class="[
                     'w-[8px] h-[8px] rounded-full',
                     item.status === 'Active'
@@ -186,7 +149,7 @@
         </div>
 
         <div
-          class="px-[32px] py-[16px] flex flex-col sm:flex-row items-center justify-between text-[14px] text-gray-600 gap-[16px]">
+          class="px-[32px] py-[16px] flex flex-col sm:flex-row items-center justify-between text-[14px] text-gray-600 gap-[16px]" data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">
           <div>Showing 1 to 10 results</div>
           <div class="flex items-center gap-[8px]">
             <button class="p-[4px] rounded hover:bg-[#3F5A2B] disabled:opacity-40" disabled>

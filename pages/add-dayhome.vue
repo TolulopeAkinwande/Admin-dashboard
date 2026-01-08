@@ -7,7 +7,7 @@
             <Navbar />
             <div class="px-[24px] py-[32px]  w-[630px]">
                 <div class="mb-[40px] w-full flex flex-col gap-[16px]">
-                    <NuxtLink to="/" class="w-full flex gap-[4px]">
+                    <NuxtLink to="/dayhomes" class="w-full flex gap-[4px]">
                         <img src="/images/left.svg" class="w-[16px] h-[16px]" alt="">
                         <p class="text-[16px]">Back</p>
                     </NuxtLink>
